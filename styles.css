@@ -1,0 +1,31 @@
+body {
+    animation: backgroundcolor infinite 2s;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;
+}
+
+#image {
+    animation: rotateAmogus infinite 2s linear;
+}
+
+@keyframes backgroundcolor {
+    0% { background-color: blue; }
+    20% { background-color: green; }
+    40% { background-color: yellow; }
+    60% { background-color: orange; }
+    80% { background-color: red; }
+    100% { background-color: purple; }
+}
+
+@keyframes rotateAmogus {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(90deg); }
+    50% { transform: rotate(180deg); }
+    75% { transform: rotate(240deg); }
+    90% { transform: rotate(300deg); }
+    100% { transform: rotate(360deg); }
+}
